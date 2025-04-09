@@ -7,15 +7,15 @@ import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#EDE7D9]">
+    <>
       <Header />
-      <main className="container mx-auto px-4 py-8">
+      <main className=" mx-auto px-4 py-8 min-h-screen min-w-screen bg-[#EDE7D9] space-y-8">
         <AboutMe />
         <Experience />
         <Skills />
         <Education />
       </main>
       <FooterSection />
-    </div>
+    </>
   );
 }

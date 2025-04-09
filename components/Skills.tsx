@@ -6,7 +6,7 @@ import SkillItem from "@/components/SkillItem";
 const Skills = () => {
   return (
     <Section id="skills">
-      <div className="flex flex-col gap-8 h-[100vh] items-center justify-center mt-10">
+      <div className="flex flex-col gap-8 md:h-[100vh] items-center justify-center mt-10">
         <h2 className="text-2xl font-bold text-[#736B60] mb-4">Skills</h2>
         <div className="flex flex-col gap-8 text-[#4B4237] ">
           <ul className="flex flex-col gap-8">
