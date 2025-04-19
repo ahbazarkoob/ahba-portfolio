@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className=" mx-auto px-4 py-8 min-h-screen min-w-screen bg-[#EDE7D9] space-y-8">
+      <main className=" mx-auto px-4 py-8 min-h-screen min-w-screen bg-white space-y-8">
         <AboutMe />
         <Experience />
         <Skills />
