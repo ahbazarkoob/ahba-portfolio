@@ -5,7 +5,7 @@ import { experiences } from "@/data";
 const Experience = () => {
   return (
     <Section id="experience">
-      <div className="hidden md:flex flex-col gap-8 h-[100vh] items-center justify-center mt-11 ">
+      <div className="hidden md:flex flex-col gap-8 h-[100vh] items-center justify-center mt-32 ">
         <h2 className="text-2xl font-bold text-[#736B60]">Experience</h2>
         <div className="flex flex-col gap-8 relative w-full">
           {/* Vertical timeline line */}
