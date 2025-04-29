@@ -8,7 +8,7 @@ const Intro = () => {
     <Section id="intro">
       <div className="flex flex-col gap-8 h-auto md:h-[90vh] lg:h-[90vh] items-center justify-center">
         <div className="flex flex-1 flex-col-reverse md:flex-row justify-center items-center gap-4">
-          <div className="flex flex-col text-[#736B60] gap-4 w-full md:w-1/2">
+          <div className="flex flex-col gap-4 w-full md:w-1/2">
             <div className="flex flex-col">
               <h1 className="text-4xl md:text-start text-center">
                 Hello, I’m <span className="font-semibold">Ahba.</span>

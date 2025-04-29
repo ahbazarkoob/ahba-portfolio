@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header className="bg-[var(--color-nav-bg)] text-[var(--color-light)] py-4 sticky top-0 z-50 ">
       <nav className="container mx-auto px-4 flex justify-between items-center">
-        <Link href="#aboutMe">
+        <Link href="#intro">
           <Image alt="logo" src={logoUrl} height={24} />
         </Link>
         <ul className="hidden md:flex space-x-6">
@@ -43,6 +43,11 @@ const Header = () => {
           <li>
             <a href="#education" className="hover:underline">
               Courses
+            </a>
+          </li>
+          <li>
+            <a href="#contact" className="hover:underline">
+              Contact
             </a>
           </li>
         </ul>

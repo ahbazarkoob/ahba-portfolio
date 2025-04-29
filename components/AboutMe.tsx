@@ -5,11 +5,11 @@ const AboutMe = () => {
   return (
     <Section id="aboutMe">
       <div className="flex flex-col gap-8 h-[90vh] items-center justify-center">
-          <div className="flex flex-col justify-center items-center text-[#736B60] gap-4 w-full md:w-1/2 text-center">
+          <div className="flex flex-col justify-center items-center gap-4 w-full md:w-1/2 text-center">
             <p className="font-normal text-xl md:text-start text-center underline">
               FRONT END DEVELOPER
             </p>
-            <p className="text-base text-[#A49694] text-center justify-center">
+            <p className="text-base text-center justify-center">
               I've been working as Software Developer, Front-End at Flattr with
               experience on the Flutter-based Novo Flashmart app and an EHR web
               app for Join Pomegranate, integrating 200+ RESTful APIs, 50+

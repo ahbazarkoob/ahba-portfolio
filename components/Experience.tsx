@@ -5,11 +5,11 @@ import { experiences } from "@/data";
 const Experience = () => {
   return (
     <Section id="experience">
-      <div className="hidden md:flex flex-col gap-8 h-[100vh] items-center justify-center mt-32 ">
-        <h2 className="text-2xl font-bold text-[#736B60] text-center">Experience</h2>
+      <div className="hidden md:flex flex-col gap-8 h-[100vh] items-center justify-center ">
+        <h2 className="pb-12 text-center text-4xl font-bold sm:text-3xl">Experience</h2>
         <div className="flex flex-col gap-8 relative w-full">
           {/* Vertical timeline line */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-gray-300 h-full"></div>
+          <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-[var(--color-primary)] h-full"></div>
           {experiences.map((exp, index) => (
             <div
               key={index}
@@ -18,15 +18,15 @@ const Experience = () => {
               }`}
             >
               <div className="w-5/12 p-6 bg-white rounded-lg shadow-md border border-gray-200">
-                <h2 className="text-xl font-semibold text-[#736B60]">
+                <h2 className="text-xl font-semibold">
                   {exp.title}
                 </h2>
                 <div>
                   <div className="flex flex-row justify-between items-baseline">
-                    <p className="text-lg font-medium text-[#736B60]">
+                    <p className="text-lg font-medium">
                       {exp.company}
                     </p>
-                    <p className="text-sm text-[#A49694]">{exp.duration}</p>
+                    <p className="text-sm">{exp.duration}</p>
                   </div>
                 </div>
                 {exp.projects.map((project, projIndex) => (
@@ -34,7 +34,7 @@ const Experience = () => {
                     <h3 className="text-md font-medium text-[#4B4237]">
                       {project.name}
                     </h3>
-                    <ul className="list-disc list-inside text-sm text-[#736B60] mt-2">
+                    <ul className="list-disc list-inside text-sm mt-2">
                       {project.details.map((detail, detailIndex) => (
                         <li key={detailIndex}>{detail}</li>
                       ))}
@@ -43,7 +43,7 @@ const Experience = () => {
                 ))}
               </div>
               <div className="w-2/12 flex justify-center">
-                <div className="w-4 h-4 bg-blue-500 rounded-full z-10 border-4 border-white"></div>
+                <div className="w-4 h-4 bg-[var(--color-accent)] rounded-full z-10 border-4 border-[var(--color-primary)]"></div>
               </div>
             </div>
           ))}
