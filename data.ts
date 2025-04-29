@@ -40,94 +40,133 @@ export const experiences = [
 
 export const skills = [
   {
-    name: "JavaScript",
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/javascript.svg",
-  },
-  {
-    name: "Dart",
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/dart.svg",
-  },
-  {
-    name: "TypeScript",
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/typescript.svg",
-  },
-  {
-    name: "Redux",
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/redux.svg",
-  },
-  {
-    name: "Git",
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/git.svg",
-  },
-  {
-    name: "Firebase",
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/firebase.svg",
-  },
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/tailwindcss.svg",
-  // },
-];
-
-export const frameworks = [
-  {
-    name: "Flutter",
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/flutter.svg",
-  },
-  {
-    name: "React",
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/react.svg",
-  },
-  {
-    name: "Next.js",
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/nextdotjs.svg",
-  },
-];
-export const frontEnd = [
-  {
     name: "HTML",
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/html5.svg",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
   },
   {
     name: "CSS",
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/css3.svg",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
   },
-];
-
-export const tools = [
+  {
+    name: "JavaScript",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+  },
+  {
+    name: "React",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  },
+  {
+    name: "Next.js",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+  },
+  {
+    name: "Dart",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg",
+  },
+  {
+    name: "Flutter",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+  },
   {
     name: "Tailwind CSS",
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/tailwindcss.svg",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+  },
+  {
+    name: "Redux",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+  },
+  {
+    name: "Git",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+  },
+  {
+    name: "TypeScript",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+  },
+  {
+    name: "Firebase",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-original.svg",
   },
   {
     name: "Android Studio",
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/androidstudio.svg",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg",
   },
   {
     name: "Visual Studio Code",
+    // icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudiocode/visualstudiocode-original.svg"
     icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/visualstudiocode.svg",
   },
   {
     name: "GitHub",
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
   },
   {
     name: "Figma",
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/figma.svg",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
   },
-  // {
-  //   name: "RESTful APIs",
-  //   icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/postman.svg",
-  // },
-  // {
-  //   name: "WebSockets",
-  //   icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/socketdotio.svg",
-  // },
-  // {
-  //   name: "Zod",
-  //   icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/zod.svg",
-  // },
 ];
+
+// export const frameworks = [
+//   {
+//     name: "Flutter",
+//     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+//   },
+//   {
+//     name: "React",
+//     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+//   },
+//   {
+//     name: "Next.js",
+//     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+//   },
+// ];
+
+// export const frontEnd = [
+//   {
+//     name: "HTML",
+//     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+//   },
+//   {
+//     name: "CSS",
+//     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+//   },
+// ];
+
+// export const tools = [
+//   {
+//     name: "Tailwind CSS",
+//     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+//   },
+//   {
+//     name: "Android Studio",
+//     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg"
+//   },
+//   {
+//     name: "Visual Studio Code",
+//     // icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudiocode/visualstudiocode-original.svg"
+//     icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/visualstudiocode.svg",
+//   },
+//   {
+//     name: "GitHub",
+//     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+//   },
+//   {
+//     name: "Figma",
+//     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+//   },
+//   // {
+//   //   name: "RESTful APIs",
+//   //   icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/postman.svg",
+//   // },
+//   // {
+//   //   name: "WebSockets",
+//   //   icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/socketdotio.svg",
+//   // },
+//   // {
+//   //   name: "Zod",
+//   //   icon: "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/zod.svg",
+//   // },
+// ];
 
 export const education = [
   {

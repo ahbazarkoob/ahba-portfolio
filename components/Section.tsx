@@ -8,7 +8,7 @@ const Section = ({
   id: string;
 }) => {
   return (
-    <section id={id}>
+    <section id={id} >
       <div className="text-gray-700">{children}</div>
     </section>
   );

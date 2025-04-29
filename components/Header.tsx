@@ -12,12 +12,19 @@ const Header = () => {
     setIsOpen((prev) => !prev);
   };
   return (
-    <header className="bg-[#223843] text-[#ede7d9] py-4 sticky top-0 z-50 ">
+    <header className="bg-[var(--color-nav-bg)] text-[var(--color-light)] py-4 sticky top-0 z-50 ">
       <nav className="container mx-auto px-4 flex justify-between items-center">
         <Link href="#aboutMe">
           <Image alt="logo" src={logoUrl} height={24} />
         </Link>
         <ul className="hidden md:flex space-x-6">
+          <li>
+            {" "}
+            <a href="#aboutMe" className="hover:underline">
+              {" "}
+              About{" "}
+            </a>
+          </li>
           <li>
             <a href="#experience" className="hover:underline">
               Experience
@@ -40,7 +47,7 @@ const Header = () => {
           </li>
         </ul>
         <button
-          className="md:hidden text-[#ede7d9] focus:outline-none"
+          className="md:hidden text-[var(--color-light)] focus:outline-none"
           onClick={toggleMenu}
           aria-label="Toggle navigation menu"
         >
@@ -69,7 +76,7 @@ const Header = () => {
           </svg>
         </button>
         {isOpen && (
-          <div className="md:hidden bg-[#18A999] text-[#ede7d9] absolute top-16 left-0 w-full z-40">
+          <div className="md:hidden bg-[#18A999] text-[var(--color-light)] absolute top-16 left-0 w-full z-40">
             <ul className="flex flex-col items-center space-y-4 py-4">
               <li>
                 <a

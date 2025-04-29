@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <Section id="experience">
       <div className="hidden md:flex flex-col gap-8 h-[100vh] items-center justify-center mt-32 ">
-        <h2 className="text-2xl font-bold text-[#736B60]">Experience</h2>
+        <h2 className="text-2xl font-bold text-[#736B60] text-center">Experience</h2>
         <div className="flex flex-col gap-8 relative w-full">
           {/* Vertical timeline line */}
           <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-gray-300 h-full"></div>
@@ -50,7 +50,7 @@ const Experience = () => {
         </div>
       </div>
       <div className="md:hidden">
-        <h2 className="text-2xl font-bold text-[#736B60] mb-6">Experience</h2>
+        <h2 className="text-2xl font-bold text-[#736B60] mb-6 text-center">Experience</h2>
         <div className="flex overflow-x-auto snap-x snap-mandatory gap-4 pb-4 scrollbar-hide">
           {experiences.map((exp, index) => (
             <div
