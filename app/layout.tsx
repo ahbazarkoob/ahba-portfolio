@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${outfit.variable} ${plusJakartaSans.variable} antialiased`}
+        className={`${outfit.variable} ${plusJakartaSans.variable} antialiased bg-white`}
       >
         {children}
       </body>

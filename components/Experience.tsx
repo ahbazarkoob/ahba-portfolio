@@ -6,7 +6,9 @@ const Experience = () => {
   return (
     <Section id="experience">
       <div className="hidden md:flex flex-col gap-8 h-[100vh] items-center justify-center ">
-        <h2 className="pb-12 text-center text-4xl font-bold sm:text-3xl">Experience</h2>
+        <h2 className="pb-12 text-center text-4xl font-bold sm:text-3xl">
+          Experience
+        </h2>
         <div className="flex flex-col gap-8 relative w-full">
           {/* Vertical timeline line */}
           <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-[var(--color-primary)] h-full"></div>
@@ -18,14 +20,10 @@ const Experience = () => {
               }`}
             >
               <div className="w-5/12 p-6 bg-white rounded-lg shadow-md border border-gray-200">
-                <h2 className="text-xl font-semibold">
-                  {exp.title}
-                </h2>
+                <h2 className="text-xl font-semibold">{exp.title}</h2>
                 <div>
                   <div className="flex flex-row justify-between items-baseline">
-                    <p className="text-lg font-medium">
-                      {exp.company}
-                    </p>
+                    <p className="text-lg font-medium">{exp.company}</p>
                     <p className="text-sm">{exp.duration}</p>
                   </div>
                 </div>
@@ -50,7 +48,9 @@ const Experience = () => {
         </div>
       </div>
       <div className="md:hidden">
-        <h2 className="text-2xl font-bold text-[#736B60] mb-6 text-center">Experience</h2>
+        <h2 className="text-2xl font-bold text-[#736B60] mb-6 text-center">
+          Experience
+        </h2>
         <div className="flex overflow-x-auto snap-x snap-mandatory gap-4 pb-4 scrollbar-hide">
           {experiences.map((exp, index) => (
             <div
