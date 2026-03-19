@@ -7,6 +7,7 @@ import IntroAnimation from "@/components/intro-animation";
 import MobileNav from "@/components/mobile-nav";
 import Navbar from "@/components/navbar";
 import ExperienceSection from "@/components/ProfessionalExperience";
+import ProjectsSection from "@/components/projects-section";
 import SkillsSection from "@/components/Skills copy";
 import { useState } from "react";
 
@@ -22,6 +23,7 @@ export default function Home() {
         <AboutSection />
         <SkillsSection />
         <ExperienceSection />
+        <ProjectsSection />
         <ContactSection />
         <Footer />
       </main>
